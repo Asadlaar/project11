@@ -87,6 +87,11 @@ nav button svg{
     border-bottom: 1px solid #fff;
     
 }
+@media (max-width:600px) {
+    
+    
+}
+ 
 /*nav:hover #inav-bottom{
    background-color: #111;
     height: 150%;
@@ -142,6 +147,12 @@ nav button svg{
     position: relative;
 
 }
+@media (max-width:600px) {
+    #ipage1{
+        height: 73vh;
+    }
+    
+}
 
 #ipage1 h1{
     color: #fff;
@@ -151,16 +162,40 @@ nav button svg{
     line-height: 8.5vw;
     
 }
+@media (max-width:600px) {
+    #ipage1 h1{
+        line-height: 9.4vw;
+        margin-top: .5vw;
+        font-size: 10vw;
+    }
+    
+}
+
 #ipage1 h1 svg{
     height: 6vw;
    width: 6vw;
     background-color: green;
     border-radius: 50%;
 }
+@media (max-width:600px) {
+    #ipage1 h1 svg{
+        height: 8vw;
+        width: 8vw;
+    }
+    
+}
 #ipage1 p{
     text-align: center;
     font-weight: 400;
     margin-top: 2vh;
+}
+@media (max-width:600px) {
+    #ipage1 p{
+
+        margin-top: 4vh;
+        font-size: 4.3vw;
+    }
+    
 }
 #ipage1-detail{
     display: flex;
@@ -177,6 +212,14 @@ border: 1px solid #979797;
 border-radius: 50px;
 margin-top: 2vh;
 }
+@media (max-width:600px) {
+    #ipage1-detail h4{
+        
+        margin-top: 8vh;
+        font-size: 2.5vw;
+    }
+    
+}
 
 #imoving-div{
     /*background-color: red;*/
@@ -188,6 +231,13 @@ margin-top: 2vh;
     padding: 1.2vw;
     overflow: hidden; /*this can hidden the nowrap*/
 }
+@media (max-width:600px) {
+    #imoving-div{
+        height: 18vw;
+        width: 70vw ;
+    }
+    
+}
 #imoving-div .move{
     display: inline-block;
     animation-name: run;
@@ -198,6 +248,13 @@ margin-top: 2vh;
 #imoving-div .move img{
     height: 1vw;
     margin: 0 1.2vw;
+}
+@media (max-width:600px)  {
+    #imoving-div .move img{
+        color: red;
+        height: 1.3vh;
+    }
+    
 }
 /*animation on images apply on .move view in #imoving-div .move*/
 @keyframes run{
@@ -244,6 +301,13 @@ margin-top: 2vh;
     border-top: 1px solid #333;
     
 }
+@media (max-width:600px) {
+
+    #iPage2{
+        
+        height: 70%;
+    }
+}
 #ipage2-left{
     height: 100%;
     width: 40%;
@@ -254,18 +318,52 @@ margin-top: 2vh;
     flex-direction: column;
     padding: 3vw 0;
 }
+@media (max-width:600px) {
+    #ipage2-left{
+        height: 70vw;
+        padding: .4vw 0;
+    }
+
+    
+}
 #ipage2-left p{
     font-size: 1vw;
+}
+@media (max-width:600px) {
+    #ipage2-left p{
+        font-size: 4.5vw;
+    
+        
+    }
+    
 }
 #ipage2-left h5{
     font-size: 1.1vw;
     width: 70%;
     font: 600;
 }
+@media (max-width:600px) {
+    #ipage2-left h5{
+        font-size: 2.7vw;
+        width: 91%;
+        padding-top: 12vh;
+        
+    }
+    
+}
+
 #ipage2-right{
     height: 100%;
     width: 52%;
     /*background-color: coral;*/
+}
+@media (max-width:600px) {
+    #ipage2-right{
+        height: 75%;
+        width: 55%;
+
+    }
+    
 }
 .right-elem{
     position: relative;
@@ -275,10 +373,23 @@ margin-top: 2vh;
     border-bottom: 1px solid #333;
 
 }
+@media (max-width:600px) {
+
+    .right-elem{
+        padding-top: 4vh;
+    }
+}
 .right-elem h2{
     font-size: 1.3vw;
     font-weight: 400;
 }
+@media (max-width:600px) {
+
+    .right-elem h2{
+        font-size: 2.9vw;
+    }
+}
+
 .right-elem img{
     height: 5vw;
     width: 5vw;
@@ -287,6 +398,13 @@ margin-top: 2vh;
     position: absolute;
     opacity: 0;
     scale: 0;
+}
+@media (max-width:600px) {
+
+    .right-elem img{
+        width: 10vw;
+        height: 10vw;
+    }
 }
     
 
@@ -305,6 +423,12 @@ margin-top: 2vh;
     align-items: center;
     justify-content: center;
 
+}
+@media (max-width:600px) {
+
+    #ipage3{
+           height: 50vh;
+    }
 }
 .play-button{
     /*background-color: red;*/
@@ -328,6 +452,9 @@ margin-top: 2vh;
     opacity: 0;
     transition: all ease 0.5s;
 }
+
+    
+
 .play-button .icon{
     background-color: white;
     padding: 3vw;
@@ -336,12 +463,23 @@ margin-top: 2vh;
     justify-content: center;
     border-radius: 50%;
 }
+@media (max-width:600px) {
+    .play-button .icon{
+        
+        width: 20vw;
+        height: 20vw;
+    }
+}
 .play-button .icon i{
     color: #111;
     font-size: 2.8vw;
     overflow: hidden;
-
-
+}
+@media (max-width:600px) {
+    .play-button .icon i{
+        
+        font-size: 6vw;
+    }
 }
 .play-button:hover h5{
     opacity: 1;
@@ -377,12 +515,30 @@ margin-top: 2vh;
     padding-bottom: 0;
     
 }
+@media (max-width:600px) {
+    .section{
+        display: flex;
+        flex-direction: column;
+        padding: 6vh 0;
+    }
+    
+}
 .section-left{
     height: 100%;
-    width: 25%;
+    width: 40%;
     /*background-color: aqua;*/
     border-top: 1px solid #000;
     padding-top: 3vh;
+    
+}
+@media (max-width:600px) {
+    .section-left{
+        width: 77vw;
+        display: flex;
+        align-items: center;
+    flex-direction: column;
+width: 48vw;
+    }
     
 }
 .section-left h2{
@@ -390,11 +546,28 @@ margin-top: 2vh;
     font-weight: 600;
     color: black;
 }
+@media (max-width:600px) {
+    .section-left h2{
+        font-size: 7.6vw;
+        
+        
+    }
+    
+}
 .section-left p{
     margin-top: 13vh;
     font-size: 1.3vw;
     color: black;
     font-weight: 300;
+}
+@media (max-width:600px) {
+    .section-left p{
+        font-size: 4.3vw;
+        margin-top: 5.5vw;
+        width: 70vw;
+        font-weight: 400;
+    }
+    
 }
 .section-right{
     height: 100%;
@@ -402,10 +575,25 @@ margin-top: 2vh;
     background-color: rgb(55, 97, 97);
     position: relative;
 }
+@media (max-width:600px) {
+    .section-right{
+        width: 90vw;
+        height: 150vw;
+        margin-top: 14vw;
+    }
+    
+}
 .section-right img{
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+@media (max-width:600px) {
+    .section-right img{
+
+
+    }
+    
 }
 
 .section-right video{
@@ -417,6 +605,12 @@ margin-top: 2vh;
     object-fit: cover;
     opacity: 0;
     transition: opacity ease 0.1s;
+}
+@media (max-width:600px) {
+    .section-right video{
+        
+    }
+    
 }
 /*code for ipage5 */
 
@@ -430,6 +624,16 @@ margin-top: 2vh;
     justify-content: space-between;
     padding: 2vh 10vw;
 }
+
+@media (max-width:600px) {
+    #ipage5{
+               
+               padding: 2vh 3vw;
+
+
+            }
+    
+}
 #ipage5>button{
     background-color: #0BA34E;
     padding: 1vw 2vw;
@@ -440,18 +644,47 @@ margin-top: 2vh;
     position: sticky; /*this cannnot move button tiil scrol from top:10%*/
     top: 10%;
 }
+@media (max-width:600px) {
+    #ipage5>button{
+               width: 30vw;
+               height:15vw;
+               margin-top: 5vw;
+               font-size: 2vw;
+               position: relative;
+            }
+    
+}
 .page5-right{
     width: 60%;
 }
 .page5-right>p{
-    font-size: 1.6vw;
+    font-size: 1.5vw;
 }
+@media (max-width:600px) {
+    .page5-right>p{
+        font-size: 2vw;
+        font: 300;
+        line-height: 3vw;
+        margin-top: 4vw;
+
+    }
+    
+}
+
 /*this code is use to create little bit space in the paragrph*/
 .page5-right>p span{
     width: 20vw;
     display: inline-block;
 
 }
+@media (max-width:600px) {
+    .page5-right>p span{
+      width: 20vw
+    }
+    
+}
+
+
 #ipage5-content{
     /*background-color: red;*/
     width: 100%;
@@ -459,8 +692,16 @@ margin-top: 2vh;
     padding: 5vh 0;
 
 }
+
 #ipage5-content>h1{
     font-size: 3vw;
+}
+@media (max-width:600px) {
+.uiux-arrow>h1{
+        font-size: 4vw;
+
+    }
+    
 }
 
 #ipage5-content #ipage5-content-detail{
@@ -468,9 +709,10 @@ margin-top: 2vh;
     display: flex;
     margin-top: 4vh;
     margin-bottom: 4vh;
-
-    
 }
+
+   
+
 #ipage5-content #ipage5-content-detail>h4{
     border-radius: 50px;
     border: 1px solid #fff;
@@ -493,6 +735,14 @@ margin-top: 2vh;
     transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
 
 }
+@media (max-width:600px) {
+    .page5-contner-detail{
+        padding-bottom: 3vh;
+    }
+    
+}
+
+   
 .page5-contner-detail p{
     width: 55%;
     font-size: 0.9vw;
@@ -500,18 +750,36 @@ margin-top: 2vh;
     z-index: 8;
 
 }
-.page5-contner-detail h3{
-    font-size: 1.7vw;
-    font-weight: 400;
-    position: relative;
-
+@media (max-width:600px) {
+    .page5-contner-detail p{
+        font-size: 2vw;
+        width: 76%;
+    }
     
 }
+.page5-contner-detail h3{
+    font-size: 1.5vw;
+    font-weight: 400;
+    position: relative;
+}
+@media (max-width:600px) {
+    .page5-contner-detail h3{
+        font-size: 3.5vw;
+    
+    }
+    
+}
+
 .page5-contner-detail i{
     font-size: 1vw;
     position: relative;
+}
+@media (max-width:600px) {
+    .page5-contner-detail i{
+        font-size: 2vw;
+        
+    }
     
-
 }
 /*create animation code to over the ipage5*/
 
@@ -592,6 +860,9 @@ summary::marker{
     padding-bottom: 8.5vh;
     
 }
+
+    
+
 #ipage6-content{
     /*background-color: red;*/
     display: flex;
@@ -610,6 +881,15 @@ summary::marker{
     width: 62%;
     color: #111;
 }
+@media (max-width:600px) {
+    #ipage6-content #right-6>p{
+        
+        font-size: 3.5vw;
+        margin-left: 2vh;
+        width: 85%;
+    }
+    
+}
 #ipage6-content #blue-btn{
     background-color: #14054d;
     display: flex;
@@ -622,11 +902,29 @@ summary::marker{
     
     
 }
+@media (max-width:600px) {
+    #ipage6-content #blue-btn{
+        width: 22vw;
+        height: 7vh;
+        margin-left: 5.3vw;
+        
+
+    }
+    
+}
 #blue-btn h4{
     position: absolute;
     font-size: 0.9vw;
     text-transform: uppercase;
     padding: 2vw 3vh;
+}
+@media (max-width:600px) {
+    #blue-btn h4{
+        font-size: 1.3vw;
+        padding: 2vw 4vh;
+
+    }
+    
 }
 #blue-btn i{
     padding-left: 1vw;
@@ -640,6 +938,25 @@ summary::marker{
     display: flex;
     align-items: flex-start;
     justify-content: center;
+}
+@media (max-width:600px) {
+    #ipage6-bottom{
+        height: 30vh;
+    }
+    
+}
+@media (max-width:600px) {
+    #ipage6-bottom h5{
+
+        font-size: 2vw;
+    }
+    
+}
+@media (max-width:600px) {
+    #ipage6-bottom h4{
+        font-size: 1vw;
+    }
+    
 }
 #ipage6-p1{
     width: 30%;
@@ -664,6 +981,12 @@ summary::marker{
    /* background-color: rgb(107, 36, 77);*/
     height: 100%;
     border-right: 1px solid #dadada;
+}
+@media (max-width:600px) {
+    #ipage6-p4{
+        width: 20%;
+    }
+    
 }
 #ipage6-p5{
     width: 10%;
@@ -731,3 +1054,37 @@ summary::marker{
     width: 100%;
     background-color: #fff;
 }
+.manu{
+    opacity: 0;
+}
+
+/*code for responsive website*/
+@media (max-width:600px) {
+    nav{
+        width: 100vw;
+        height: 12vh;
+
+    }
+    .nav-list{
+        opacity: 0;
+    }
+    .manu{
+        opacity: 1;
+    }
+    nav button svg{
+        opacity: 0;
+    }
+    nav button{
+        opacity: 0;
+    }
+    .manu{
+        margin-top: 3vh;
+        font-size: 21px;
+    }
+    nav p{
+        margin-top: 3vh;
+        font-size:18px ;
+    }
+}
+
+
